@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6903B2EF2962BAFE00C81EEA /* quickCaptureFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6903B2EE2962BAE600C81EEA /* quickCaptureFramework.framework */; };
+		6903B2F02962BAFE00C81EEA /* quickCaptureFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6903B2EE2962BAE600C81EEA /* quickCaptureFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6961F8B029546065001CF0D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6961F8AF29546065001CF0D2 /* AppDelegate.swift */; };
 		6961F8B229546065001CF0D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6961F8B129546065001CF0D2 /* SceneDelegate.swift */; };
 		6961F8B429546065001CF0D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6961F8B329546065001CF0D2 /* ViewController.swift */; };
 		6961F8B729546065001CF0D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6961F8B529546065001CF0D2 /* Main.storyboard */; };
 		6961F8B929546068001CF0D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6961F8B829546068001CF0D2 /* Assets.xcassets */; };
 		6961F8BC29546068001CF0D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6961F8BA29546068001CF0D2 /* LaunchScreen.storyboard */; };
-		697F02C52959713C0009B072 /* quickCaptureFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6961F8D229546203001CF0D2 /* quickCaptureFramework.framework */; };
-		697F02C62959713C0009B072 /* quickCaptureFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6961F8D229546203001CF0D2 /* quickCaptureFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6961F8D129546203001CF0D2 /* PBXContainerItemProxy */ = {
+		6903B2ED2962BAE600C81EEA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6961F8C329546084001CF0D2 /* quickCaptureFramework.xcodeproj */;
+			containerPortal = 6903B2E92962BAE600C81EEA /* quickCaptureFramework.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 6961F89529545D2C001CF0D2;
 			remoteInfo = quickCaptureFramework;
@@ -34,7 +34,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				697F02C62959713C0009B072 /* quickCaptureFramework.framework in Embed Frameworks */,
+				6903B2F02962BAFE00C81EEA /* quickCaptureFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -42,6 +42,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6903B2E92962BAE600C81EEA /* quickCaptureFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = quickCaptureFramework.xcodeproj; path = ../quickCaptureFramework/quickCaptureFramework.xcodeproj; sourceTree = "<group>"; };
 		6961F8AC29546065001CF0D2 /* quickCaptureDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = quickCaptureDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6961F8AF29546065001CF0D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6961F8B129546065001CF0D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,7 +51,6 @@
 		6961F8B829546068001CF0D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6961F8BB29546068001CF0D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6961F8BD29546068001CF0D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6961F8C329546084001CF0D2 /* quickCaptureFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = quickCaptureFramework.xcodeproj; path = ../quickCaptureFramework/quickCaptureFramework.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +58,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				697F02C52959713C0009B072 /* quickCaptureFramework.framework in Frameworks */,
+				6903B2EF2962BAFE00C81EEA /* quickCaptureFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6903B2EA2962BAE600C81EEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6903B2EE2962BAE600C81EEA /* quickCaptureFramework.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		6961F8A329546065001CF0D2 = {
 			isa = PBXGroup;
 			children = (
-				6961F8C329546084001CF0D2 /* quickCaptureFramework.xcodeproj */,
+				6903B2E92962BAE600C81EEA /* quickCaptureFramework.xcodeproj */,
 				6961F8AE29546065001CF0D2 /* quickCaptureDemo */,
 				6961F8AD29546065001CF0D2 /* Products */,
 				6961F8C929546094001CF0D2 /* Frameworks */,
@@ -101,14 +109,6 @@
 			children = (
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		6961F8CE29546203001CF0D2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6961F8D229546203001CF0D2 /* quickCaptureFramework.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		69C09459295AFF0B00B1C226 /* views */ = {
@@ -169,8 +169,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 6961F8CE29546203001CF0D2 /* Products */;
-					ProjectRef = 6961F8C329546084001CF0D2 /* quickCaptureFramework.xcodeproj */;
+					ProductGroup = 6903B2EA2962BAE600C81EEA /* Products */;
+					ProjectRef = 6903B2E92962BAE600C81EEA /* quickCaptureFramework.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -181,11 +181,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		6961F8D229546203001CF0D2 /* quickCaptureFramework.framework */ = {
+		6903B2EE2962BAE600C81EEA /* quickCaptureFramework.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = quickCaptureFramework.framework;
-			remoteRef = 6961F8D129546203001CF0D2 /* PBXContainerItemProxy */;
+			remoteRef = 6903B2ED2962BAE600C81EEA /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
